@@ -28,10 +28,7 @@ while return 4
 ```
 bool return 1
 inter return 2
-long return 3
-float return 4
-short return 5
-byte return 6
+string return 3
 ```
 
   
