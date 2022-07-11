@@ -1,9 +1,11 @@
 /*
 Yorh Project Code Archives (YPCA)
 Namespace import System from mscorlib.dll & System.dll
-Path: Yorh.Block
 */
 
+using System;
+namesapce Yorh92 {
+	class Block {
 public static int PriorityAction(string name) {
      switch(name) {
        case "+": return 1;
@@ -40,6 +42,6 @@ public static int DataTypeFunctions(string name) {
      }
 	return 0;
 }
-
-
+	}
+}
 
