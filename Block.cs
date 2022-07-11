@@ -35,11 +35,8 @@ public static int MainConditionalFunctions(string name) {
 public static int DataTypeFunctions(string name) {
 	  switch(name) {
        case "bool": return 1;
-       case "inter": return 2;
-       case "long": return 3;
-       case "float": return 4;
-       case "short": return 5;
-       case "byte": return 6;
+       case "int": return 2;
+       case "string": return 3;
      }
 	return 0;
 }
