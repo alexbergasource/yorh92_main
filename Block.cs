@@ -15,7 +15,7 @@ public static int PriorityAction(string name) {
        case "--": return 7;
        case "<=": return 1;
        case ">=": return 8;
-       case ">" : return 9;
+       case ">": return 9;
        case "<": return 10;
      }
 	return 0;
@@ -31,15 +31,7 @@ public static int MainConditionalFunctions(string name) {
 	return 0;
 } 
 
-public static int MainConditionalFunctions(string name) {
-     switch(name) {
-       case "if": return 1;
-       case "else": return 2;
-       case "for": return 3;
-       case "while": return 4;
-     }
-	return 0;
-} 
+
 public static int DataTypeFunctions(string name) {
 	  switch(name) {
        case "bool": return 1;
@@ -51,4 +43,6 @@ public static int DataTypeFunctions(string name) {
      }
 	return 0;
 }
+
+
 
