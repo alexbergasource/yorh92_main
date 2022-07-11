@@ -16,5 +16,13 @@ this is part of the Yorh project developed in c# with the aim of turning it into
 > return 9
 < return 10
 ```
-
-   
+# Conditional Functions:
+```
+bool return 1
+inter return 2
+long return 3
+float return 4
+short return 5
+byte return 6
+```
+  
