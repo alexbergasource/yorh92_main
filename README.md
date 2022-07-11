@@ -18,6 +18,14 @@ this is part of the Yorh project developed in c# with the aim of turning it into
 ```
 # Conditional Functions:
 ```
+if return 1
+else return 2
+for return 3
+while return 4
+```
+
+# Data Type Functions:
+```
 bool return 1
 inter return 2
 long return 3
@@ -25,4 +33,5 @@ float return 4
 short return 5
 byte return 6
 ```
+
   
